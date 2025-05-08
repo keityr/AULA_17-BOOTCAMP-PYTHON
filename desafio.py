@@ -85,7 +85,6 @@ with Session() as sessions:
 
 from sqlalchemy import func
 from sqlalchemy.orm import sessionmaker
-# Supondo que engine já foi definido anteriormente e os modelos Produto e Fornecedor foram definidos conforme o exemplo anterior.
 
 Session = sessionmaker(bind=engine)
 session = Session()
