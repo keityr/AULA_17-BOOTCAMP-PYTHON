@@ -38,7 +38,7 @@ Contém informações dos produtos, com relacionamento para um fornecedor:
 ## 📥 Inserção de Dados
 
 - São inseridos 5 fornecedores.
-- São inseridos 5 produtos, todos vinculados ao **Fornecedor A** (com `fornecedor_id = 1`).
+- São inseridos 5 produtos, todosAlguns são vinculados ao **Fornecedor A** e alguns ao **Fornecedor D** (com `fornecedor_id = 1` e `fornecedor_id = 4`).
 
 ## 📊 Consulta com Join e Agregação
 
@@ -54,7 +54,8 @@ resultado = session.query(
 Resultado exibido no console:
 
 ```
-Fornecedor: Fornecedor A, Total Preço: 218.9
+Fornecedor: Fornecedor A, Total Preço: 170.80
+Fornecedor: Fornecedor D, Total Preço: 46.50
 ```
 
 ## ✅ Como Executar
